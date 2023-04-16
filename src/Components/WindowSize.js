@@ -7,6 +7,9 @@ const WindowSize = () => {
     React.useEffect(function(){
         window.addEventListener("resize", function(){
             setWidthWin(window.innerWidth)
+            if(this.window.innerWidth <600){
+                console.log("test")
+            }
         })
     }, [])
     
