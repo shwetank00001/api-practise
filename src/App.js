@@ -1,10 +1,10 @@
 import React from 'react'
-import Effect from './Components/Effect'
+import WindowSize from './Components/WindowSize'
 
 const App = () => {
   return (
     <div>
-        <Effect />       
+        <WindowSize/>       
     </div>
   )
 }
