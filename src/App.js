@@ -1,10 +1,10 @@
 import React from 'react'
-import Window from './Components/Window'
+import Fetch from './Components/Fetch'
 
 const App = () => {
   return (
     <div>
-        <Window/>       
+        <Fetch/>       
     </div>
   )
 }
