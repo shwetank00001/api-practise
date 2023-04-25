@@ -1,10 +1,9 @@
 import React from 'react'
-import Fetch from './Components/Fetch'
-
+import Example from './Example'
 const App = () => {
   return (
     <div>
-        <Fetch/>       
+        <Example/>       
     </div>
   )
 }

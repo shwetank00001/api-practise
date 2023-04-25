@@ -1,0 +1,84 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.startNavBar {
+  text-align: center;
+  width: 13%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.endNavBar {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.searchBar {
+  border-radius: 5px;
+}
+
+.belowNavbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #015998;
+}
+
+.productText {
+  color: whitesmoke;
+}
+
+.navBar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navBar2Start {
+  display: flex;
+  width: 17%;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBar2End {
+  width: 20%;
+  display: flex;
+}
+.searchBar2 {
+  border-radius: 5px;
+  width: 15rem;
+}
+
+table {
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+}
+th {
+  color: whitesmoke;
+  background-color: #015998;
+}
+
+tr:nth-child(even) {
+  background-color: #e6e6e6;
+}
+
+.myBtn {
+  margin-left: 40rem;
+  margin-top: 20rem;
+  background-color:  #015998;
+  color: whitesmoke;
+  border-radius: 1rem;
+  border-color:whitesmoke ;
+  cursor: pointer;
+}
+
+.icons{
+  cursor: pointer;
+}
