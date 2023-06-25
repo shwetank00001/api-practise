@@ -1,9 +1,11 @@
 import React from 'react'
-import Example from './Example'
+// import Api from './Components/Api'
+import Backend from './Components/Backend'
+
 const App = () => {
   return (
-    <div>
-        <Example/>       
+    <div> 
+      <Backend />
     </div>
   )
 }
